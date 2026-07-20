@@ -6,7 +6,6 @@ import ChatWindow from "./components/ChatWindow";
 
 const API_BASE = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000";
 
-
 export default function Home() {
   // State: "idle" | "uploading" | "chatting"
   const [appState, setAppState] = useState("idle");
